@@ -7,10 +7,10 @@
   </head>
   <body>
     <div class="divText">
-      <h1>Border text</h1>
-      <h2>Border text 2</h2>
-      <h3>Border text 2</h3>
-      <h4>Border text 2</h4>
+      <p>Para 1</p>
+      <p>Para 2</p>
+      <p>Para 3</p>
+      <p>Para 4</p>
     </div>
   </body>
 
@@ -27,9 +27,12 @@
     // document.getElementsByClassName("text4")[0].style.color = "purple";
 
     //Select elements by tag name and add a border
-    document.getElementsByTagName("h1")[0].style.border = "1px solid red";
-    document.getElementsByTagName("h2")[0].style.border = "1px solid green";
-    document.getElementsByTagName("h3")[0].style.border = "1px solid blue";
-    document.getElementsByTagName("h4")[0].style.border = "1px solid purple";
+    // document.getElementsByTagName("h1")[0].style.border = "1px solid red";
+    // document.getElementsByTagName("h2")[0].style.border = "1px solid green";
+    // document.getElementsByTagName("h3")[0].style.border = "1px solid blue";
+    // document.getElementsByTagName("h4")[0].style.border = "1px solid purple";
+
+    //Use querySelector to select the first paragraph
+    console.log(document.querySelector("p"));
   </script>
 </html>
