@@ -7,10 +7,10 @@
   </head>
   <body>
     <div class="divText">
-      <h1 class="text1">Helloo its me!</h1>
-      <h1 class="text2">Helloo its me again!</h1>
-      <h1 class="text3">Helloo world!</h1>
-      <h1 class="text4">I'm a good boy!</h1>
+      <h1>Border text</h1>
+      <h2>Border text 2</h2>
+      <h3>Border text 2</h3>
+      <h4>Border text 2</h4>
     </div>
   </body>
 
@@ -25,5 +25,11 @@
     // document.getElementsByClassName("text2")[0].style.color = "blue";
     // document.getElementsByClassName("text3")[0].style.color = "green";
     // document.getElementsByClassName("text4")[0].style.color = "purple";
+
+    //Select elements by tag name and add a border
+    document.getElementsByTagName("h1")[0].style.border = "1px solid red";
+    document.getElementsByTagName("h2")[0].style.border = "1px solid green";
+    document.getElementsByTagName("h3")[0].style.border = "1px solid blue";
+    document.getElementsByTagName("h4")[0].style.border = "1px solid purple";
   </script>
 </html>
