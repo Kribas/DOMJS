@@ -7,7 +7,8 @@
   </head>
   <body>
     <div class="divElement">
-      <h1>Helooo!!</h1>
+      <h1 class="text">Helooo!!</h1>
+      <button class="hideButton">Click me!</button>
     </div>
   </body>
 
@@ -46,5 +47,12 @@
     // divElement.addEventListener("click", () => {
     //   divElement.style.backgroundColor = "red";
     // });
+
+    //Hide an element when a button is clicked
+    const text = document.querySelector(".text");
+    const hideButton = document.querySelector(".hideButton");
+    hideButton.addEventListener("click", () => {
+      text.style.visibility = "hidden";
+    });
   </script>
 </html>
