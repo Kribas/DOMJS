@@ -7,10 +7,7 @@
   </head>
   <body>
     <div class="divText">
-      <p>Para 1</p>
-      <p>Para 2</p>
-      <p>Para 3</p>
-      <p>Para 4</p>
+      <button class="firstButton">Button text</button>
     </div>
   </body>
 
@@ -33,6 +30,15 @@
     // document.getElementsByTagName("h4")[0].style.border = "1px solid purple";
 
     //Use querySelector to select the first paragraph
-    console.log(document.querySelector("p"));
+    //console.log(document.querySelector("p"));
+
+    //Use querySelectorAll to select all list items
+    // console.log(document.querySelectorAll("li"));
+
+    //Change the innerText of a button on click.
+    const button = document.querySelector(".firstButton");
+    button.addEventListener("click", () => {
+      button.textContent = "Changed!";
+    });
   </script>
 </html>
