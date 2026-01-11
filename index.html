@@ -7,21 +7,18 @@
   </head>
   <body>
     <div id="div-id">
-      <h1 class="text">Helooo!!</h1>
-      <button onclick="buttonClick()" id="change-link" class="btn">
-        Click me!
-      </button>
-      <img
-        id="image"
-        width="150"
-        height="150"
-        src="https://images-cdn.ubuy.do/6893e30a79b427678005845a-set-of-15-x-kayley-gunner-sexy-hot-adult.jpg"
-        alt="Image"
-      />
-      <a id="href-link" target="_blank" href="https://www.google.com"
-        >Click Me!</a
-      >
+      <h1 id="text">Helooo!!</h1>
+      <form action="">
+        <input id="input-field" type="text" />
+      </form>
     </div>
   </body>
-  <script></script>
+  <script>
+    //Read value from an input field.
+    let text = document.getElementById("text");
+    let input = document.getElementById("input-field");
+    input.addEventListener("input", () => {
+      text.innerText = input.value;
+    });
+  </script>
 </html>
