@@ -1,0 +1,82 @@
+// Select elements by class name and change their color
+    //document.getElementsByClassName("divText")[0].style.color = "blue";
+    // document.getElementsByClassName("text1")[0].style.color = "red";
+    // document.getElementsByClassName("text2")[0].style.color = "blue";
+    // document.getElementsByClassName("text3")[0].style.color = "green";
+    // document.getElementsByClassName("text4")[0].style.color = "purple";
+
+    //Select elements by tag name and add a border
+    // document.getElementsByTagName("h1")[0].style.border = "1px solid red";
+    // document.getElementsByTagName("h2")[0].style.border = "1px solid green";
+    // document.getElementsByTagName("h3")[0].style.border = "1px solid blue";
+    // document.getElementsByTagName("h4")[0].style.border = "1px solid purple";
+
+    //Use querySelector to select the first paragraph
+    //console.log(document.querySelector("p"));
+
+    //Use querySelectorAll to select all list items
+    // console.log(document.querySelectorAll("li"));
+
+    //Change the innerText of a button on click.
+    // const button = document.querySelector(".firstButton");
+    // button.addEventListener("click", () => {
+    //   button.textContent = "Changed!";
+    // });
+
+    //Change background color of div on click
+    // const divElement = document.querySelector(".divElement");
+    // divElement.addEventListener("click", () => {
+    //   divElement.style.backgroundColor = "red";
+    // });
+
+    //Hide an element when a button is clicked
+    // const text = document.querySelector(".text");
+    // const hideButton = document.querySelector(".hideButton");
+    // hideButton.addEventListener("click", () => {
+    //   text.style.visibility = "hidden";
+    // });
+
+    //Toggle visiblity when a button is clicked
+    // const text = document.querySelector(".text");
+    // const hideButton = document.querySelector(".hideButton");
+    // hideButton.addEventListener("click", () => {
+    //   if (text.style.visibility == "hidden") {
+    //     text.style.visibility = "visible";
+    //   } else {
+    //     text.style.visibility = "hidden";
+    //   }
+    // });
+
+    //Add a CSS class to an element using JS
+    // let element = document.getElementById("div-id");
+    // element.classList.add("div-class");
+
+    //Remove a CSS class using JS
+    // let element = document.getElementById("div-id");
+    // element.classList.remove("div-class");
+
+    //Toggle a class using js
+    // let elementTwo = document.getElementById("div-id");
+    // let toggleBtn = document.querySelector(".toggle-btn");
+    // toggleBtn.addEventListener("click", () => {
+    //   elementTwo.classList.toggle("div-class-two");
+    //   console.log(elementTwo.classList);
+    // });
+
+    //Change image src using a button click in js
+    // let changeImg = document.getElementById("change-img");
+    // changeImg.addEventListener("click", () => {
+    //   document.getElementById("image").src =
+    //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRojs4kIXm-2nFLnbmYY2bpeUsbMSOhnxhaVg&s";
+    // });
+
+    //Change a link’s href dynamically.
+    // let button = document.getElementById("change-link");
+    // let div = document.getElementById("div-id");
+
+    // const buttonClick = () => {
+    //   document.getElementById("href-link").href = "https://www.instagram.com";
+    //   let pElement = document.createElement("p");
+    //   div.appendChild(pElement);
+    //   pElement.innerText = "Link Changed!";
+    // };
