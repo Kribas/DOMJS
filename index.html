@@ -8,18 +8,14 @@
   <body>
     <div id="div-id">
       <h1 id="text">Helooo!!</h1>
-      <form action="">
-        <input id="input-field" type="text" />
-      </form>
-      <button id="clear-btn">Clear</button>
+      <button id="disable-btn">Disable Button</button>
     </div>
   </body>
   <script>
-    //Clear input field value on click
-    // let clearBtn = document.getElementById("clear-btn");
-    // let inputField = document.getElementById("input-field");
-    // clearBtn.addEventListener("click", () => {
-    //   inputField.value = "";
-    // });
+    let btn = document.getElementById("disable-btn");
+    btn.addEventListener("click", () => {
+      btn.disabled = true;
+      btn.innerText = "Disabled";
+    });
   </script>
 </html>
