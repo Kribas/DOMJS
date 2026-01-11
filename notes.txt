@@ -80,3 +80,18 @@
     //   div.appendChild(pElement);
     //   pElement.innerText = "Link Changed!";
     // };
+
+    //Read value from an input field.
+    // let text = document.getElementById("text");
+    // let input = document.getElementById("input-field");
+    // input.addEventListener("input", () => {
+    //   text.innerText = input.value;
+    // });
+
+    //Display input value inside a paragraph
+    // let p = document.createElement("p");
+    // document.getElementById("div-id").appendChild(p);
+    // let inputElement = document.getElementById("input-field");
+    // inputElement.addEventListener("input", () => {
+    //   p.innerText = inputElement.value;
+    // });
