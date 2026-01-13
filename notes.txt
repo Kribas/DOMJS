@@ -102,3 +102,10 @@
     // clearBtn.addEventListener("click", () => {
     //   inputField.value = "";
     // });
+
+    //Disable Button using JS
+    // let btn = document.getElementById("disable-btn");
+    // btn.addEventListener("click", () => {
+    //   btn.disabled = true;
+    //   btn.innerText = "Disabled";
+    // });
